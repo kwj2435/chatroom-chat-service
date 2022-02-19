@@ -6,7 +6,7 @@ import lombok.Getter;
 import java.awt.*;
 
 @Getter
-public class ChatMessage {
+public class ChatMessageDto {
     private String chatRoomId;
     private String writer;
     private String message;
