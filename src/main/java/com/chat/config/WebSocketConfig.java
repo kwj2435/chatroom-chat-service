@@ -16,9 +16,7 @@ public class WebSocketConfig implements WebSocketConfigurer {
     @Override
     public void registerWebSocketHandlers(WebSocketHandlerRegistry registry) {
         // '/chat' url을 통해 들어온 요청을 webSocketHandler에서 처리함. (Socket 연결)
-
-
-
+        
         registry.addHandler(webSocketHandler, "/chat");
     }
 }
