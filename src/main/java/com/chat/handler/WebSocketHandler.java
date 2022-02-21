@@ -34,6 +34,6 @@ public class WebSocketHandler extends TextWebSocketHandler {
     @Override
     public void afterConnectionClosed(WebSocketSession session, CloseStatus status) throws Exception {
         sessions.remove(session);
-        log.info("퇴장 : {]", session);
+        log.info("exit : {]", session);
     }
 }
